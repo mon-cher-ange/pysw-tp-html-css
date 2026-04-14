@@ -6,6 +6,7 @@
 
     --text-color: #141414;
     --text-muted: #666666;
+    --tooltip-text-color: #F5F5F5;
 
     --bg-color: #FDFCF8;
     --bg-soft-color: #F2F0E9;
@@ -29,4 +30,33 @@
     --font-subtitle: 'Spectral', serif;
     --font-body: 'Plus Jakarta Sans', sans-serif;
     --font-price: 'Tenor Sans', sans-serif;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --bg-soft-color: #1E1E1E;
+    --card-bg: #1A1A1A;
+
+    --text-color: #F5F5F5;
+    --text-muted: #B0B0B0;
+    --tooltip-text-color: #141414;
+
+    --border-color: #2C2C2C;
+
+    --accent-color: #D4AF37;
+    --accent-dark-color: #B8962F;
+}
+
+.theme-toggle {
+    background: none;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: var(--transition-smooth);
+}
+
+.theme-toggle:hover {
+    background-color: var(--bg-soft-color);
 }
