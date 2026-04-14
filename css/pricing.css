@@ -99,7 +99,7 @@
     transform: translateX(-50%);
 
     background-color: var(--text-color);
-    color: white;
+    color: var(--tooltip-text-color);
     padding: 8px 10px;
     border-radius: 6px;
 
